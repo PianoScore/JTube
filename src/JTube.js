@@ -248,15 +248,7 @@ JTube.prototype={
             var current_time=+new Date();
             window["jtube"+current_time]=checkAuth;
             if(!window.gapi){
-                $.ajax({
-                    url:"https://apis.google.com/js/client.js?onload=jtube"+current_time,
-                    async:false,
-                    dataType:"script"
-                }).then(function(){
-                            //gapi.client.setApiKey(t.client_secret);
-                           // window.setTimeout(checkAuth,1);
-                            //clearInterval(interval);
-                        });
+                $.getScript("https://apis.google.com/js/client.js?onload=jtube"+current_time)
             }else{
                 gapi.client.setApiKey(t.client_secret);
                 checkAuth();
