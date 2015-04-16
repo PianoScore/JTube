@@ -1,0 +1,658 @@
+{
+    "project": {},
+    "files": {
+        "JTube.js": {
+            "name": "JTube.js",
+            "modules": {},
+            "classes": {
+                "JTube": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "JTube": {
+            "name": "JTube",
+            "shortname": "JTube",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "JTube.js",
+            "line": 1,
+            "params": [
+                {
+                    "name": "client_id",
+                    "description": "",
+                    "type": "Type"
+                },
+                {
+                    "name": "client_secret",
+                    "description": "",
+                    "type": "Type"
+                },
+                {
+                    "name": "redirect_url",
+                    "description": "",
+                    "type": "Type"
+                }
+            ],
+            "is_constructor": 1
+        }
+    },
+    "classitems": [
+        {
+            "file": "JTube.js",
+            "line": 19,
+            "description": "Use List type api",
+            "itemtype": "method",
+            "name": "List",
+            "params": [
+                {
+                    "name": "apiName",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "Object"
+                },
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 46,
+            "description": "Use Update type api",
+            "itemtype": "method",
+            "name": "Update",
+            "params": [
+                {
+                    "name": "apiName",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "Object"
+                },
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 73,
+            "description": "Get videos you uploaded",
+            "itemtype": "method",
+            "name": "getMyVideoItemsAll",
+            "params": [
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 107,
+            "description": "Get all videos title you uploaded",
+            "itemtype": "method",
+            "name": "getMyVideoTitleAll",
+            "params": [
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 123,
+            "description": "Get all videos title and id you uploaded",
+            "itemtype": "method",
+            "name": "getMyVideoTitleAndIdAll",
+            "params": [
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 139,
+            "description": "Get video thmbnails",
+            "itemtype": "method",
+            "name": "getVideoThumbnailsByID",
+            "params": [
+                {
+                    "name": "videoId",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 151,
+            "description": "Get video description",
+            "itemtype": "method",
+            "name": "getVideoDescriptionByID",
+            "params": [
+                {
+                    "name": "videoId",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 163,
+            "description": "Get video published date",
+            "itemtype": "method",
+            "name": "getVideoPublishedAtByID",
+            "params": [
+                {
+                    "name": "videoId",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 175,
+            "description": "Get channnel id video belong to",
+            "itemtype": "method",
+            "name": "getVideoChannnelIdByID",
+            "params": [
+                {
+                    "name": "videoId",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 187,
+            "description": "Get channel title video belong to",
+            "itemtype": "method",
+            "name": "getVideoChannelTitleByID",
+            "params": [
+                {
+                    "name": "videoId",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 199,
+            "description": "Update video title",
+            "itemtype": "method",
+            "name": "updateVideoTitle",
+            "params": [
+                {
+                    "name": "videoId",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "title",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 220,
+            "description": "Add tags to video",
+            "itemtype": "method",
+            "name": "addTags",
+            "params": [
+                {
+                    "name": "videoId",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "tag",
+                    "description": "space separated",
+                    "type": "String"
+                },
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 245,
+            "description": "Replace tags of video",
+            "itemtype": "method",
+            "name": "updateTags",
+            "params": [
+                {
+                    "name": "videoId",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "tag",
+                    "description": "tags replaced",
+                    "type": "String"
+                },
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 270,
+            "itemtype": "method",
+            "name": "updateSnippet",
+            "params": [
+                {
+                    "name": "item",
+                    "description": "",
+                    "type": "Object"
+                },
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 284,
+            "description": "Get video Item data",
+            "itemtype": "method",
+            "name": "getVideoItemByID",
+            "params": [
+                {
+                    "name": "videoId",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 304,
+            "description": "Get accessToken",
+            "itemtype": "method",
+            "name": "getAccessToken",
+            "params": [
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 313,
+            "description": "Get accessToken expire",
+            "itemtype": "method",
+            "name": "getAccessTokenExpire",
+            "params": [
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 322,
+            "description": "Get scopes",
+            "itemtype": "method",
+            "name": "getScopes",
+            "params": [
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 331,
+            "description": "Get clientId",
+            "itemtype": "method",
+            "name": "getClientId",
+            "params": [
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 340,
+            "description": "Get clientSecret",
+            "itemtype": "method",
+            "name": "getClientSecret",
+            "params": [
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 349,
+            "description": "Get playlist created by your account",
+            "itemtype": "method",
+            "name": "getMyPlayLists",
+            "params": [
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 368,
+            "description": "Get playlist by playlist id",
+            "itemtype": "method",
+            "name": "getPlayListsByID",
+            "params": [
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 387,
+            "description": "Get vidoes on playlist",
+            "itemtype": "method",
+            "name": "getPlayListItemByID",
+            "params": [
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 440,
+            "description": "Get rating of video",
+            "itemtype": "method",
+            "name": "getVideoRating",
+            "params": [
+                {
+                    "name": "videoId",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 452,
+            "description": "Get content detail of video",
+            "itemtype": "method",
+            "name": "getVideoContentDetails",
+            "params": [
+                {
+                    "name": "videoId",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 464,
+            "description": "Get statistics(viewcount likecount dislikecount",
+            "itemtype": "method",
+            "name": "getVideoStatistics",
+            "params": [
+                {
+                    "name": "videoId",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 476,
+            "description": "Get view count of video",
+            "itemtype": "method",
+            "name": "getVideoViewCount",
+            "params": [
+                {
+                    "name": "videoId",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 488,
+            "description": "Get like count of video",
+            "itemtype": "method",
+            "name": "getVideoLikeCount",
+            "params": [
+                {
+                    "name": "videoId",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 500,
+            "description": "Get dislike count of video",
+            "itemtype": "method",
+            "name": "getVideoDisLikeCount",
+            "params": [
+                {
+                    "name": "videoId",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 512,
+            "description": "Get favorite count of video",
+            "itemtype": "method",
+            "name": "getVideoFavoriteCount",
+            "params": [
+                {
+                    "name": "videoId",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 524,
+            "description": "Get comment count of video",
+            "itemtype": "method",
+            "name": "getVideoCommentCount",
+            "params": [
+                {
+                    "name": "videoId",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        },
+        {
+            "file": "JTube.js",
+            "line": 536,
+            "description": "Get several data of video you want.",
+            "itemtype": "method",
+            "name": "videosQuery",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "Object"
+                },
+                {
+                    "name": "callback",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "JTube"
+        }
+    ],
+    "warnings": []
+}
